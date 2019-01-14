@@ -7,7 +7,9 @@
     "authors": [
         {
             "name": "Ahsan Zahid Chowdhury",
-            "email": "azc.pavel@gmail.com"
+            "email": "azc.pavel@gmail.com",
+            "homepage": "http://itszahid.info",
+            "role": "Developer"
         }
     ],    
     "autoload": {
