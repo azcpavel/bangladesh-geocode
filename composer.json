@@ -1,0 +1,27 @@
+{
+    "name": "exceptio/bangladesh-geocode",
+    "description": "Division, District, Upazila level fully mapped package for laravel",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahsan Zahid Chowdhury",
+            "email": "azc.pavel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Exceptio\\BangladeshGeoCode\\": "src/",
+            "Exceptio\\BangladeshGeoCode\\Model\\": "src/Model"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Exceptio\\BangladeshGeoCode\\BangladeshGeoCodeServiceProvider"
+            ]
+        }
+    }    
+}
