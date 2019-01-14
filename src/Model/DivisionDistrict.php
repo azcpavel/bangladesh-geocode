@@ -9,7 +9,7 @@ class DivisionDistrict extends Model
     protected $table = "division_districts";
     protected $fillable = [
     	'id',
-    	'division_id'
+    	'division_id',
         'name',
         'bn_name',
         'lat',
