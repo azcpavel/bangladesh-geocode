@@ -9,8 +9,7 @@
             "name": "Ahsan Zahid Chowdhury",
             "email": "azc.pavel@gmail.com"
         }
-    ],
-    "minimum-stability": "dev",
+    ],    
     "autoload": {
         "psr-4": {
             "Exceptio\\BangladeshGeoCode\\": "src/",
