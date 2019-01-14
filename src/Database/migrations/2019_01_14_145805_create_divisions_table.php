@@ -21,10 +21,8 @@ class CreateDivisionsTable extends Migration
 
 			$table->increments('id');
 			$table->string('name');
-			$table->string('bn_name');
-			$table->timestamps();
-
-			$table->primary('id');
+			$table->string('bn_name');			
+			
 		});
 
 		DB::table('divisions')->insert([

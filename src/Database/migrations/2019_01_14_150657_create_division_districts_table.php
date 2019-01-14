@@ -22,12 +22,10 @@ class CreateDivisionDistrictsTable extends Migration
 			$table->unsignedInteger('division_id');
 			$table->string('name');
 			$table->string('bn_name');            
-			$table->double('lat',8,8);
-			$table->double('lon',8,8);
-			$table->string('website')->nullable();
-			$table->timestamps();
-
-			$table->primary('id');
+			$table->double('lat',18,8);
+			$table->double('lon',18,8);
+			$table->string('website')->nullable();			
+			
 			$table->foreign('division_id')
 					->references('id')
 					->on('divisions')

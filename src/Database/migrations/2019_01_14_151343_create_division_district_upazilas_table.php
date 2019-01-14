@@ -21,10 +21,8 @@ class CreateDivisionDistrictUpazilasTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('district_id');
             $table->string('name');
-            $table->string('bn_name');
-            $table->timestamps();
-
-            $table->primary('id');
+            $table->string('bn_name');            
+           
             $table->foreign('district_id')
                     ->references('id')
                     ->on('division_districts')
