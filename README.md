@@ -92,7 +92,9 @@ $division = Division::with('districts.upazilas')->get();
 
 ---
 ## Credit Notes
+
 This package database file is inspired from [nuhil/bangladesh-geocode](https://github.com/nuhil/bangladesh-geocode)
+
 This package readme file is inspired from [laravel-roles](https://github.com/jeremykenedy/laravel-roles)
 
 
