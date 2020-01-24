@@ -26,9 +26,9 @@ class CreateDivisionsTable extends Migration
 		});
 
 		DB::table('divisions')->insert([
-			['id' =>1, 'name' =>'Barishal', 'bn_name' =>'বরিশাল'],
+			['id' =>1, 'name' =>'Dhaka', 'bn_name' =>'ঢাকা'],			
 			['id' =>2, 'name' =>'Chattogram', 'bn_name' =>'চট্টগ্রাম'],
-			['id' =>3, 'name' =>'Dhaka', 'bn_name' =>'ঢাকা'],
+			['id' =>3, 'name' =>'Barishal', 'bn_name' =>'বরিশাল'],
 			['id' =>4, 'name' =>'Khulna', 'bn_name' =>'খুলনা'],
 			['id' =>5, 'name' =>'Rajshahi', 'bn_name' =>'রাজশাহী'],
 			['id' =>6, 'name' =>'Rangpur', 'bn_name' =>'রংপুর'],
